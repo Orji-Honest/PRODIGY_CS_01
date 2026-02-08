@@ -13,7 +13,19 @@ A Python implementation of the classic Caesar Cipher encryption algorithm, devel
 - ✅ **Interactive command-line interface** with menu system
 - ✅ **File encryption/decryption** support
 - ✅ **Input validation** and error handling
-
+- 
+## How It Works
+The program shifts alphabetic characters forward (encryption) or backward (decryption) by a user-specified number.
+Uppercase and lowercase letters are preserved.
+Non-letter characters (spaces, punctuation) remain unchanged.
+Decryption is handled by reversing the shift.
+Testing Examples
+Encrypt "orji" with shift 3 → Output: "kuml"
+Decrypt "kuml" with shift 3 → Output: "orji"
+Encrypt "orji honest" with shift 4 → Output: "svnm lsriwx"
+## Security Note
+The Caesar cipher is outdated and vulnerable to brute force attacks.
+This project is a learning tool for basic understanding encryption basics.
 
 ## 🚀 Quick Start
 
