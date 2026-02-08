@@ -24,7 +24,7 @@ A Python implementation of the classic Caesar Cipher encryption algorithm, devel
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/PRODIGY_CS_01.git
+git clone https://github.com/Orji-Honest/PRODIGY_CS_01.git
 
 # Navigate to project directory
 cd PRODIGY_CS_01
